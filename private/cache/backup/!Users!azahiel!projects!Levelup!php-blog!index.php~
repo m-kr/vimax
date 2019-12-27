@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+	<a href="sdfa" >sdfa</a>
+	<button class="btn">something</button>
+	<button class="btn">something</button>
+	<style>
+	 .some {
+	   background-color: pink;
+	   color: red;
+	 }
+	</style>
+    </head>
+    <body>
+        <header>
+            <p></p>
+            <a href="/"></a>
+            <a href=""></a>
+        </header>
+        <main>
+            <?php
+            $arr = ['some', 'other'];
+
+            foreach ($arr as $item):?>
+                <p>
+                    hey
+                </p>
+            <?php endforeach; ?>
+            <?php
+            if ($some === 0) {
+                echo 'true';
+            }
+
+            ?>
+            <script>
+             var someVar = document.querySelector('.someclass');
+dfasdf
+            </script>
+
+            <div class="inner">
+                <header>
+                  <p></p>
+                </header>
+            </div>
+        </main>
+        <footer></footer>
+    </body>
+</html>

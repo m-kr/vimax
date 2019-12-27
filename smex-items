@@ -1,0 +1,45 @@
+
+;; ----- smex-history -----
+(
+ whitespace-mode
+ projectile-add-known-project
+ projectile-find-file
+ projectile-switch-open-project
+ projectile-switch-project
+ projectile-vc
+ recentf-load-list
+)
+
+;; ----- smex-data -----
+(
+ (php-mode . 8)
+ (package-install . 7)
+ (package-reinstall . 3)
+ (recentf-open-files . 1)
+ (web-mode . 6)
+ (comment-indent . 1)
+ (package-delete . 2)
+ (lsp . 8)
+ (emmet-mode . 2)
+ (flycheck-mode . 6)
+ (treemacs . 1)
+ (swiper . 1)
+ (lsp-ui-mode . 2)
+ (global-flycheck-mode . 2)
+ (tern-mode . 1)
+ (javascript-mode . 1)
+ (js2-mode . 2)
+ (next-error . 2)
+ (flycheck-verify-setup . 1)
+ (line-number-mode . 2)
+ (linum-mode . 3)
+ (linum-relative-mode . 1)
+ (todo-mode . 1)
+ (recentf-load-list . 1)
+ (projectile-vc . 1)
+ (projectile-switch-project . 1)
+ (projectile-switch-open-project . 1)
+ (projectile-find-file . 1)
+ (whitespace-mode . 2)
+ (projectile-add-known-project . 2)
+)
