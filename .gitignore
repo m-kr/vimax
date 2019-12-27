@@ -3,3 +3,4 @@ private/cache
 .lsp-session*
 .cache/*
 transient
+eshell
