@@ -1,0 +1,5 @@
+lsp-cache*
+private/cache
+.lsp-session*
+.cache/*
+transient
