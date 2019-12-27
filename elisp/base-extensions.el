@@ -3,11 +3,6 @@
   :bind
   ("C-c SPC" . avy-goto-char))
 
-
-;; (use-package company
-;;   :config
-;;   (add-hook 'after-init-hook 'global-company-mode))
-
 (use-package dashboard
   :config
   (dashboard-setup-startup-hook))
@@ -54,14 +49,14 @@
   (define-key read-expression-map (kbd "C-r") 'counsel-expression-history))
 
 
-(use-package hlinum
-  :config
-  (hlinum-activate))
+;; (use-package hlinum
+;;   :config
+;;   (hlinum-activate))
 
-(use-package linum
-  :config
-  (setq linum-format " %3d ")
-  (global-linum-mode nil))
+;; (use-package linum
+;;   :config
+;;   (setq linum-format " %3d ")
+;;   (global-linum-mode nil))
 
 (use-package magit
   :config
@@ -162,6 +157,10 @@
   (yas-global-mode 1))
 
 ;;;;;;;;; Custom part ;;;;;;;;;;;
+(use-package git-gutter
+  :config
+  (global-git-gutter-mode t))
+
 (use-package evil
   :ensure t
   :init
@@ -272,10 +271,10 @@
 ;; (use-package company-lsp
 ;;  :commands company-lsp)
 
-(use-package linum-relative
-  :ensure t
-  :config
-  (setq linum-relative-current-symbol "")
-  (linum-relative-toggle))
+;; (use-package linum-relative
+;;   :ensure t
+;;   :config
+;;   (setq linum-relative-current-symbol "")
+;;   (linum-relative-toggle))
 
 (provide 'base-extensions)

@@ -85,6 +85,9 @@
 (add-hook 'before-save-hook 'delete-trailing-whitespace)
 
 ;; Custom part
+(global-display-line-numbers-mode t)
+(setq display-line-numbers "%4d \u2502 "
+      display-line-numbers-type 'relative)
 ;; (global-whitespace-mode t)
 
 (provide 'base)
