@@ -4,9 +4,9 @@
   ("C-c SPC" . avy-goto-char))
 
 
-(use-package company
-  :config
-  (add-hook 'after-init-hook 'global-company-mode))
+;; (use-package company
+;;   :config
+;;   (add-hook 'after-init-hook 'global-company-mode))
 
 (use-package dashboard
   :config
@@ -182,10 +182,24 @@
   :config
   (evil-collection-init))
 
+(use-package airline-themes)
+
 (use-package powerline
-  :ensure
+  :requires airline-themes
+  :ensure t
   :config
-  (powerline-center-evil-theme))
+  (airline-themes-set-modeline))
+  ;; (powerline-vim-theme))
+  ;; (powerline-center-evil-theme))
+
+;; (use-package spaceline
+;;   :ensure t
+;;   :config
+;;   (spaceline-spacemacs-theme))
+  ;; :after powerline
+  ;; :init
+  ;; (setq airline-themes-set-modeline t)
+  ;; (load-theme 'airline-cool-theme))
 
 (use-package prettier-js
   :ensure t
@@ -196,7 +210,7 @@
  :ensure t
  :config
  (setq company-idle-delay 0.3)
- (global-company-mode 1))
+ (add-hook 'after-init-hook 'global-company-mode))
  ;;(global-set-key (kbd “C-\<tab\>”) ‘company-complete))
 
 (use-package company-php)

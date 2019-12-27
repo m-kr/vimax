@@ -26,7 +26,8 @@
       (set (make-local-variable 'company-backends)
            '((company-tern company-files))))
     (add-hook 'js2-mode-hook 'my-js-mode-hook)
-    (add-hook 'js2-mode-hook 'company-mode))
+    (add-hook 'js2-mode-hook 'company-mode)
+    (add-hook 'js2-mode-hook 'lsp))
 
   (add-hook 'js2-mode-hook 'tern-mode)
 

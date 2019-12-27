@@ -85,7 +85,7 @@
 (add-hook 'before-save-hook 'delete-trailing-whitespace)
 
 ;; Custom part
-(global-whitespace-mode t)
+;; (global-whitespace-mode t)
 
 (provide 'base)
 ;;; base ends here

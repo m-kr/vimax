@@ -1,30 +1,30 @@
 
 ;; ----- smex-history -----
 (
- whitespace-mode
- projectile-add-known-project
- projectile-find-file
- projectile-switch-open-project
- projectile-switch-project
- projectile-vc
- recentf-load-list
+ flycheck-select-checker
+ package-install
+ lsp
+ airline-themes-set-modeline
+ lsp-ui-mode
+ cscope-find-global-definition
+ evil-goto-definition
 )
 
 ;; ----- smex-data -----
 (
  (php-mode . 8)
- (package-install . 7)
+ (package-install . 8)
  (package-reinstall . 3)
  (recentf-open-files . 1)
  (web-mode . 6)
  (comment-indent . 1)
  (package-delete . 2)
- (lsp . 8)
+ (lsp . 11)
  (emmet-mode . 2)
  (flycheck-mode . 6)
  (treemacs . 1)
  (swiper . 1)
- (lsp-ui-mode . 2)
+ (lsp-ui-mode . 4)
  (global-flycheck-mode . 2)
  (tern-mode . 1)
  (javascript-mode . 1)
@@ -42,4 +42,10 @@
  (projectile-find-file . 1)
  (whitespace-mode . 2)
  (projectile-add-known-project . 2)
+ (evil-jump-item . 1)
+ (js2-jump-to-definition . 1)
+ (evil-goto-definition . 1)
+ (cscope-find-global-definition . 1)
+ (airline-themes-set-modeline . 2)
+ (flycheck-select-checker . 1)
 )
